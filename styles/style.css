@@ -1,0 +1,16 @@
+.header{
+    background-image: url('../images/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+}
+.title{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 177px;
+}
