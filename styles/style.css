@@ -1,10 +1,18 @@
-.header{
-    background-image: url('../images/Banner\ Image.png');
+body {
+    max-width: 1320px;
+    margin: auto;
+}
+
+/* header section */
+.header {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../images/Banner\ Image.png);
+    border-radius: 16px;
     width: 1320px;
     height: 600px;
     margin: 0 auto;
 }
-.title{
+
+#title {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -13,4 +21,63 @@
     font-weight: 400;
     line-height: normal;
     padding-top: 177px;
+    padding-bottom: 0;
+    margin-bottom: 16px;
+}
+
+#text {
+    max-width: 632px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    margin: 0 auto;
+}
+
+/* main section */
+
+/* section 1 */
+#off {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+#msg {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+    margin-bottom: 0px;
+}
+
+#all-cat {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.new-year-photo{
+    text-align: center;
+    margin-top: 40px;
 }
