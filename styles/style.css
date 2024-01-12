@@ -431,6 +431,69 @@ body {
     border: 0px;
 }
 
-.subs-btn:hover{
+.subs-btn:hover {
     background-color: #070211;
+}
+
+/* footer */
+footer {
+    width: 1320px;
+    height: 420px;
+    background-color: #070211;
+    padding-top: 120px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.adderss {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+    justify-content: left;
+}
+
+.contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.website {
+    margin-top: 0px;
+}
+
+.phone {
+    margin-bottom: 0px;
+}
+
+.social {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.others {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 140px;
+    margin-right: 140px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
