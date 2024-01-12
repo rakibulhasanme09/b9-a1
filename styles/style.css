@@ -256,7 +256,7 @@ body {
     border: 15px solid #F00;
     margin-left: 70px;
     margin-right: 80px;
-
+    margin-bottom: 120px;
 }
 
 .img {
@@ -279,4 +279,158 @@ body {
 .happy-new-year-img {
     width: 140px;
     height: 140px;
+}
+
+/* section 5 */
+.what-is-functional {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.holiday-sale {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 15px;
+    margin-bottom: 48px;
+}
+
+.sec-des {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    padding-left: 126px;
+    padding-right: 126px;
+}
+
+/* section 6 */
+
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 120px;
+    margin-bottom: 16;
+}
+
+.awesome-portfolio {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 0px;
+    margin-bottom: 22px;
+}
+
+#des {
+    width: 896px;
+    margin-bottom: 48px;
+}
+
+.line-one {
+    display: flex;
+    margin-bottom: 24px;
+
+}
+
+.line-two {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+.img-flex {
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+    margin-right: 24px;
+}
+
+.img-flex:hover {
+    border: 5px solid #F00;
+}
+
+/* section 7 */
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-top: 80px;
+    margin-bottom: 120px;
+
+}
+
+.mail-image {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.subs-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.mailbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.mail-input {
+    width: 438px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-left: 30px;
+    margin-left: 0px;
+    border: 0px;
+}
+
+.subs-btn {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 0px;
+    border: 0px;
+}
+
+.subs-btn:hover{
+    background-color: #070211;
 }
